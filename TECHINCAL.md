@@ -13,7 +13,7 @@ Single Page app and API based system
  * TOTP for apps like Google authenticator
  * JWT in place of a typical session cookie
    * Contains basic user information like UID, team name, etc
-   * Makes SPA more independent hence reducing server load and bandwidth usage
+   * Makes SPA more independent from API hence reducing server load and bandwidth usage
 
 ### Security considerations
  * Query injection (is that even possible with Mongo?)
