@@ -1,4 +1,4 @@
-# Technical stuff
+# Technical
 
 ### Structure
 Single Page app and API based system
