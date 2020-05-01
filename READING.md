@@ -6,6 +6,8 @@
 
 https://dev.to/selengora/rust-or-go-for-web-development-36gg
 
+___
+
 **kristoff.it - Why Go and not Rust?**
 
 > Go takes great pride in offering a limited set of features built-in the language. This makes Go easy to learn and, even more importantly, it ensures that Go projects remain understandable even when growing in size.
