@@ -14,6 +14,7 @@ Sinensis has two main components - a static, single page app based website and a
 
 ### Features
 
+* Single click installation
 * Intuitive, clutter free admin interface
 * Dynamic scoring and unlockable challenge support
 * Intelligent tie resolving scoreboard
