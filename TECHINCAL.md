@@ -21,6 +21,7 @@ Single Page app and API based system
  * JWT in place of a typical session cookie
    * Contains basic user information like UID, team name, etc
    * Makes SPA more independent from API hence reducing server load and bandwidth usage
+   * [dgrijalva/jwt-go](https://github.com/dgrijalva/jwt-go) is the most popular Go JWT library
 
 ### Security considerations
  * Query injection (is that even possible with Mongo?)
