@@ -15,3 +15,11 @@ ___
 > Go’s concurrency model is a good fit for server-side applications that must primarily handle multiple independent requests, rather than participate in complex result-passing schemes.
 
 https://kristoff.it/blog/why-go-and-not-rust/
+
+___
+
+**Facebook Engineering - Rebuilding our tech stack for the new Facebook.com**
+
+Interesting reading that details various potential methods we could use for keeping our frontend lightweight and snappy
+
+https://engineering.fb.com/web/facebook-redesign/
