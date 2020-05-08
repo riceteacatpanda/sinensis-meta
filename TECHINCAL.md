@@ -2,7 +2,7 @@
 
 ### Structure
 Single Page app and API based system
-* Go (?) API
+* Go API
    * Cannot use standard lib HTTP router as it lacks basic functionality like verbs
    * Routing with [gorilla/mux](https://github.com/gorilla/mux) or [go-chi/chi](https://www.github.com/go-chi/chi)?
 * React/Vue frontend
