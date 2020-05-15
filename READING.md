@@ -23,3 +23,9 @@ ___
 Interesting reading that details various potential methods we could use for keeping our frontend lightweight and snappy
 
 https://engineering.fb.com/web/facebook-redesign/
+
+___
+
+**pboyd.io - How not to store passwords**
+
+https://pboyd.io/posts/how-not-to-store-passwords/
