@@ -21,6 +21,7 @@ Sinensis has two main components - a static, single page app based website and a
 * In-depth stats that make sense
 * Individual release and  times for specific catgories or challenges
 * Local, Amazon S3 or GCP Bucket file uploads
-* TOTP two factor authentication support
+* TOTP two factor authentication support (secondary)
+* Per person accounts with team support (secondary)
 * SMTP email support
 * Along with much, much more!
