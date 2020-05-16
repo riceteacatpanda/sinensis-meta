@@ -4,26 +4,22 @@
 Single Page app and API based system
 * Go API
    * Cannot use standard lib HTTP router as it lacks basic functionality like verbs
-   * Routing with [gorilla/mux](https://github.com/gorilla/mux) or [go-chi/chi](https://www.github.com/go-chi/chi)?
+   * Routing with [gorilla/mux](https://github.com/gorilla/mux)
 * Vue frontend
-   * Built from the ground up using Vue, .vue files and Node.JS on the development side, to then be built with Node into a series of static files good for deployment.
+   * Built from the ground up using Vue, .vue files and Node.JS for development
+   * Compiles into static HTML to be served with NGINX or whatever
    * Consistent usage of .vue files to split pages into separate items reduces bulk in components like CSS, especially because all CSS is scoped - it only affects the component it is written for.
    * Removing old/unused CSS also becomes easier as you know exactly what is using it
 
 ### Storage
- * Persistent storage candidates
-   * MySQL
-   * MongoDB
-     * JSON based, more suited to OOP
-     * Has an [official Go driver](https://docs.mongodb.com/drivers/go)
- * ~~Consider Redis for submission cache?~~ During Houseplant CTF thee were an average of 13 submissions a minute, which isn't especially strenuous and can easily run off the main persistent storage
+ * MySQL or SQL-based equialent as opposed to MongoDB
 
 ### Authentication
- * TOTP for apps like Google authenticator
-   * Various implementations, eg [pquerna/otp](https://github.com/pquerna/otp/)
+ * TOTP as a secondary goal
+   * Various implementations available, eg [pquerna/otp](https://github.com/pquerna/otp/)
  * JWT in place of a typical session cookie
-   * Contains basic user information like UID, team name, etc
-   * Makes SPA more independent from API hence reducing server load and bandwidth usage
+   * Will contain only static information that never changes to prevent information going out of date
+   * Items like UUIDs and team IDs
    * [dgrijalva/jwt-go](https://github.com/dgrijalva/jwt-go) is the most popular Go JWT library
 
 ### Security considerations
