@@ -26,3 +26,8 @@ Single Page app and API based system
  * Query injection (is that even possible with Mongo?)
  * XSS and CSRF
  * Cookie sharing/theft
+
+### Easter eggs
+https://frenxi.com/http-headers-you-dont-expect/
+
+> [23:21] Vi-『han burger』: Oh very important thing that I forgot to mention on the call! We need to make it so /wp-admin redirects to a rickroll in order to troll hackers - this is a critical top priority feature
