@@ -4,6 +4,7 @@
 
 Meta repository for Project Sinensis
 
+Other repos: [API](https://github.com/riceteacatpanda/sinensis-api) - [API tests](https://github.com/riceteacatpanda/sinensis-tests) - [Frontend](https://github.com/riceteacatpanda/sinensis-web)
 ### What?
 
 Sinensis is a next-level CTF platform that's designed to be fast, lightweight and easy to use from both the organizer's and competitior's point of view.
